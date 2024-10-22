@@ -1,0 +1,358 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 18.29947473426923 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 18.29947473426923 
+        intervals: size = 30 
+        intervals [1]:
+            xmin = 0 
+            xmax = 4.322124329909868 
+            text = "" 
+        intervals [2]:
+            xmin = 4.322124329909868 
+            xmax = 5.457248645156106 
+            text = "_" 
+        intervals [3]:
+            xmin = 5.457248645156106 
+            xmax = 6.191255007496482 
+            text = "_" 
+        intervals [4]:
+            xmin = 6.191255007496482 
+            xmax = 6.241255007496481 
+            text = "a" 
+        intervals [5]:
+            xmin = 6.241255007496481 
+            xmax = 6.311255007496482 
+            text = "B" 
+        intervals [6]:
+            xmin = 6.311255007496482 
+            xmax = 6.3612550074964815 
+            text = "e" 
+        intervals [7]:
+            xmin = 6.3612550074964815 
+            xmax = 6.391255007496482 
+            text = "4" 
+        intervals [8]:
+            xmin = 6.391255007496482 
+            xmax = 6.471255007496482 
+            text = "o" 
+        intervals [9]:
+            xmin = 6.471255007496482 
+            xmax = 6.501255007496482 
+            text = "t" 
+        intervals [10]:
+            xmin = 6.501255007496482 
+            xmax = 6.5712550074964815 
+            text = "4" 
+        intervals [11]:
+            xmin = 6.5712550074964815 
+            xmax = 6.681255007496482 
+            text = "a" 
+        intervals [12]:
+            xmin = 6.681255007496482 
+            xmax = 6.721255007496482 
+            text = "B" 
+        intervals [13]:
+            xmin = 6.721255007496482 
+            xmax = 6.841255007496482 
+            text = "e" 
+        intervals [14]:
+            xmin = 6.841255007496482 
+            xmax = 6.871255007496481 
+            text = "s" 
+        intervals [15]:
+            xmin = 6.871255007496481 
+            xmax = 12.595620071466241 
+            text = "_" 
+        intervals [16]:
+            xmin = 12.595620071466241 
+            xmax = 12.62562007146624 
+            text = "t" 
+        intervals [17]:
+            xmin = 12.62562007146624 
+            xmax = 12.775620071466241 
+            text = "e" 
+        intervals [18]:
+            xmin = 12.775620071466241 
+            xmax = 12.81562007146624 
+            text = "m" 
+        intervals [19]:
+            xmin = 12.81562007146624 
+            xmax = 13.095620071466241 
+            text = "_" 
+        intervals [20]:
+            xmin = 13.095620071466241 
+            xmax = 13.12562007146624 
+            text = "m" 
+        intervals [21]:
+            xmin = 13.12562007146624 
+            xmax = 13.19562007146624 
+            text = "a" 
+        intervals [22]:
+            xmin = 13.19562007146624 
+            xmax = 13.23562007146624 
+            text = "s" 
+        intervals [23]:
+            xmin = 13.23562007146624 
+            xmax = 13.36562007146624 
+            text = "x" 
+        intervals [24]:
+            xmin = 13.36562007146624 
+            xmax = 13.405620071466242 
+            text = "u" 
+        intervals [25]:
+            xmin = 13.405620071466242 
+            xmax = 13.505620071466241 
+            text = "G" 
+        intervals [26]:
+            xmin = 13.505620071466241 
+            xmax = 13.63562007146624 
+            text = "o" 
+        intervals [27]:
+            xmin = 13.63562007146624 
+            xmax = 16.914550569891595 
+            text = "_" 
+        intervals [28]:
+            xmin = 16.914550569891595 
+            xmax = 16.97562626206605 
+            text = "t" 
+        intervals [29]:
+            xmin = 16.97562626206605 
+            xmax = 17.05562626206605 
+            text = "u" 
+        intervals [30]:
+            xmin = 17.05562626206605 
+            xmax = 18.29947473426923 
+            text = "_" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 18.29947473426923 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 4.322124329909868 
+            text = "" 
+        intervals [2]:
+            xmin = 4.322124329909868 
+            xmax = 5.457248645156106 
+            text = "_" 
+        intervals [3]:
+            xmin = 5.457248645156106 
+            xmax = 6.191255007496482 
+            text = "_" 
+        intervals [4]:
+            xmin = 6.191255007496482 
+            xmax = 6.241255007496481 
+            text = "a" 
+        intervals [5]:
+            xmin = 6.241255007496481 
+            xmax = 6.3612550074964815 
+            text = "Be" 
+        intervals [6]:
+            xmin = 6.3612550074964815 
+            xmax = 6.471255007496482 
+            text = "4o" 
+        intervals [7]:
+            xmin = 6.471255007496482 
+            xmax = 6.681255007496482 
+            text = "t4a" 
+        intervals [8]:
+            xmin = 6.681255007496482 
+            xmax = 6.871255007496481 
+            text = "Bes" 
+        intervals [9]:
+            xmin = 6.871255007496481 
+            xmax = 12.595620071466241 
+            text = "_" 
+        intervals [10]:
+            xmin = 12.595620071466241 
+            xmax = 12.81562007146624 
+            text = "tem" 
+        intervals [11]:
+            xmin = 12.81562007146624 
+            xmax = 13.095620071466241 
+            text = "_" 
+        intervals [12]:
+            xmin = 13.095620071466241 
+            xmax = 13.23562007146624 
+            text = "mas" 
+        intervals [13]:
+            xmin = 13.23562007146624 
+            xmax = 13.405620071466242 
+            text = "xu" 
+        intervals [14]:
+            xmin = 13.405620071466242 
+            xmax = 13.63562007146624 
+            text = "Go" 
+        intervals [15]:
+            xmin = 13.63562007146624 
+            xmax = 16.914550569891595 
+            text = "_" 
+        intervals [16]:
+            xmin = 16.914550569891595 
+            xmax = 17.05562626206605 
+            text = "tu" 
+        intervals [17]:
+            xmin = 17.05562626206605 
+            xmax = 18.29947473426923 
+            text = "_" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 18.29947473426923 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 4.322124329909868 
+            text = "" 
+        intervals [2]:
+            xmin = 4.322124329909868 
+            xmax = 5.457248645156106 
+            text = "_" 
+        intervals [3]:
+            xmin = 5.457248645156106 
+            xmax = 6.191255007496482 
+            text = "_" 
+        intervals [4]:
+            xmin = 6.191255007496482 
+            xmax = 6.241255007496481 
+            text = "a" 
+        intervals [5]:
+            xmin = 6.241255007496481 
+            xmax = 6.391255007496482 
+            text = "ver" 
+        intervals [6]:
+            xmin = 6.391255007496482 
+            xmax = 6.681255007496482 
+            text = "otra" 
+        intervals [7]:
+            xmin = 6.681255007496482 
+            xmax = 6.871255007496481 
+            text = "vez" 
+        intervals [8]:
+            xmin = 6.871255007496481 
+            xmax = 12.595620071466241 
+            text = "_" 
+        intervals [9]:
+            xmin = 12.595620071466241 
+            xmax = 12.81562007146624 
+            text = "ten" 
+        intervals [10]:
+            xmin = 12.81562007146624 
+            xmax = 13.095620071466241 
+            text = "_" 
+        intervals [11]:
+            xmin = 13.095620071466241 
+            xmax = 13.23562007146624 
+            text = "mas" 
+        intervals [12]:
+            xmin = 13.23562007146624 
+            xmax = 13.63562007146624 
+            text = "jugo" 
+        intervals [13]:
+            xmin = 13.63562007146624 
+            xmax = 16.914550569891595 
+            text = "_" 
+        intervals [14]:
+            xmin = 16.914550569891595 
+            xmax = 17.05562626206605 
+            text = "tu" 
+        intervals [15]:
+            xmin = 17.05562626206605 
+            xmax = 18.29947473426923 
+            text = "_" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 18.29947473426923 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 4.322124329909868 
+            text = "_" 
+        intervals [2]:
+            xmin = 4.322124329909868 
+            xmax = 5.457248645156106 
+            text = "ke te p'a-sa" 
+        intervals [3]:
+            xmin = 5.457248645156106 
+            xmax = 6.191255007496482 
+            text = "_" 
+        intervals [4]:
+            xmin = 6.191255007496482 
+            xmax = 6.871255007496481 
+            text = "a B'e4 'o-t4a B'es" 
+        intervals [5]:
+            xmin = 6.871255007496481 
+            xmax = 12.595620071466241 
+            text = "_" 
+        intervals [6]:
+            xmin = 12.595620071466241 
+            xmax = 13.63562007146624 
+            text = "t'em mas x'u-Go" 
+        intervals [7]:
+            xmin = 13.63562007146624 
+            xmax = 16.914550569891595 
+            text = "_" 
+        intervals [8]:
+            xmin = 16.914550569891595 
+            xmax = 17.05562626206605 
+            text = "tu" 
+        intervals [9]:
+            xmin = 17.05562626206605 
+            xmax = 18.29947473426923 
+            text = "_" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 18.29947473426923 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 4.322124329909868 
+            text = "_" 
+        intervals [2]:
+            xmin = 4.322124329909868 
+            xmax = 5.457248645156106 
+            text = "que te pasa" 
+        intervals [3]:
+            xmin = 5.457248645156106 
+            xmax = 6.191255007496482 
+            text = "_" 
+        intervals [4]:
+            xmin = 6.191255007496482 
+            xmax = 6.871255007496481 
+            text = "a ver otra vez" 
+        intervals [5]:
+            xmin = 6.871255007496481 
+            xmax = 12.595620071466241 
+            text = "_" 
+        intervals [6]:
+            xmin = 12.595620071466241 
+            xmax = 13.63562007146624 
+            text = "ten mas jugo" 
+        intervals [7]:
+            xmin = 13.63562007146624 
+            xmax = 16.914550569891595 
+            text = "_" 
+        intervals [8]:
+            xmin = 16.914550569891595 
+            xmax = 17.05562626206605 
+            text = "tu" 
+        intervals [9]:
+            xmin = 17.05562626206605 
+            xmax = 18.29947473426923 
+            text = "_" 
