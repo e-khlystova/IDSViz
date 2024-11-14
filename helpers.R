@@ -81,6 +81,8 @@ englishIDS <- readRDS("EnglishIDSdata.rds") %>%
   filter(n()>=5) %>% 
   ungroup()
 
+englishIDS$position <- factor(englishIDS$position, levels = c("I", "M", "F"))
+
 
 englishIDS$preceding <- gsub("}", "", englishIDS$preceding)
 englishIDS$following <- gsub("}", "", englishIDS$following)

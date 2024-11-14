@@ -1,5 +1,4 @@
-server_vis <- function(input, output) {
-  
+server_vis <- function(input, output, session) {
   langdata <- reactive({
     data <- switch(input$lang, eng = englishVowels, span = spanishVowels)
     
@@ -15,7 +14,9 @@ server_vis <- function(input, output) {
   
   data_subset <- reactive({
     req(input$phoneme)
-    filter(englishIDS, ur %in% input$phoneme)
+    result <- filter(englishIDS, ur %in% input$phoneme)
+    print(head(result))
+    return(result)
   })
   
   output$freq_plot <- renderPlot({

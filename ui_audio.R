@@ -11,7 +11,9 @@ IPA <- translate_sampa(sampa)
 print(IPA)
 
 #UI
-ui_audio <- fluidPage(
+ui_audio <- function() {
+  
+  fluidPage(
   fluidRow (
     #IPA Input
     column(2,
@@ -85,5 +87,4 @@ server_audio <- function(input, output) {
     foo_func(input$ipainput, input$select, input$search_neighbor, allGrids)
   })
 }
-
-shinyApp(ui = ui_audio, server = server_audio)
+}

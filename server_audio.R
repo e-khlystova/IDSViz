@@ -89,7 +89,7 @@ dummy_loop <- function () {
 }
 
 
-server <- function(input, output) {
+server_audio <- function(input, output, session) {
   NewSection = "https://cdn.pixabay.com/download/audio/2022/05/16/audio_db6591201e.mp3"
 
   go_prev <- observeEvent(input$prev, {
