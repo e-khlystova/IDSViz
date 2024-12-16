@@ -6,6 +6,7 @@ source("ui_audio.R")
 source("server_vis.R")
 source("server_audio.R")
 
+#MAKE A CREDITS TAB
 
 # UI for the first app (visualization)
 ui_visualization <- fluidPage(
@@ -350,7 +351,7 @@ server_audio_segmentation <- function(input, output) {
 
 # Combine both apps
 ui_combined <- navbarPage(
-  "PhonBab",
+  "IDSViz",
   tabPanel("Visualization", ui_visualization),
   tabPanel("Audio segmentation", ui_audio_segmentation)
 )

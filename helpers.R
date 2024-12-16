@@ -27,39 +27,35 @@ mn_engvow <- mean(englishVowels$duration)
 englishVowels <- englishVowels %>% 
   filter(duration > mn_engvow - 2*sd_engvow) %>% 
   filter(duration < mn_engvow + 2*sd_engvow) %>% 
-  mutate(f1_hz = hz(f1)) %>% 
-  mutate(f2_hz = hz(f2)) %>% 
-  mutate(f3_hz = hz(f3)) %>% 
-  mutate(f1_barks = f1) %>% 
-  mutate(f2_barks = f2) %>% 
-  mutate(f3_barks = f3) %>% 
+  mutate(f1 = hz(f1)) %>% 
+  mutate(f2 = hz(f2)) %>% 
+  mutate(f3 = hz(f3)) %>% 
   mutate(language = "eng") %>% 
   mutate(spanish_speaker = NA) %>% 
-  mutate(speaker = english_speaker)
-
-spanishVowels <- read_csv("sp_ids_bark.csv")
-
+  mutate(speaker = english_speaker) %>% 
+  select(vowel, f1, f2, f3, duration, speaker)
 
 
-sd_spvow <- sd(spanishVowels$duration)
-mn_spvow <- mean(spanishVowels$duration)
+
+
+#TO DO: UPDATE AND SMOOTH WITH SPANISH VOWEL CSV FULL DATA SET 
+spanishVowels <- read_csv("sp_ids.csv")
+
+
+
+sd_spvow <- sd(spanishVowels$duration_ms)
+mn_spvow <- mean(spanishVowels$duration_ms)
 
 spanishVowels <- spanishVowels %>% 
-  filter(duration > mn_spvow - 2*sd_spvow) %>% 
-  filter(duration < mn_spvow + 2*sd_spvow) %>% 
-  mutate(f1_hz = hz(f1)) %>% 
-  mutate(f2_hz = hz(f2)) %>% 
-  mutate(f3_hz = hz(f3))  %>%
-  mutate(f1_barks = f1) %>% 
-  mutate(f2_barks = f2) %>% 
-  mutate(f3_barks = f3) %>% 
+  filter(duration_ms > mn_spvow - 2*sd_spvow) %>% 
+  filter(duration_ms < mn_spvow + 2*sd_spvow) %>% 
+  mutate(duration = duration_ms) %>% 
   mutate(language = "span") %>% 
   mutate(english_speaker = NA) %>% 
-  mutate(speaker = spanish_speaker)
+  mutate(speaker = spk) %>% 
+  select(vowel, f1, f2, f3, duration, speaker)
 
 
-
-vowelData <- rbind(englishVowels, spanishVowels)
 
 
 x_sampa_vowels <- c(
@@ -80,8 +76,6 @@ englishIDS <- readRDS("EnglishIDSdata.rds") %>%
   group_by(ur) %>% 
   filter(n()>=5) %>% 
   ungroup()
-
-englishIDS$position <- factor(englishIDS$position, levels = c("I", "M", "F"))
 
 
 englishIDS$preceding <- gsub("}", "", englishIDS$preceding)
