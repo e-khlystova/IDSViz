@@ -10,7 +10,9 @@ source("ui_audio.R")
 source("server_vis.R")
 source("server_audio.R")
 
-#MAKE A CREDITS TAB
+#MAKE A CREDITS TAB -- must make a tab to credit Rainey and Angela for their help with the audio portion of this 
+#Shiny app. We should also credit all of the RAs that have worked on this project. when I have time I can 
+# make a little tab with everyone's info! 
 
 # UI for the first app (visualization)
 ui_visualization <- fluidPage(
